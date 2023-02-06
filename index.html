@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/9070a33600.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        primaryColor: '#FABE4C',
+                        btnColor: '#A4BC46',
+                        bgColor1: '#FFFBF0',
+                        titleColor: '#363958',
+                        phColor: '#3E3E3E',
+                        imgBgColor: '#F1F1F1',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header class="container bg-bgColor1">
+        <div class="md:w-4/5 md:mx-auto md:flex justify-between items-center mt-12 p-4">
+            <div class="space-y-6">
+                <h1 class="text-7xl font-normal uppercase"><span class="text-primaryColor">Be the penguin</span>
+                    <br>
+                <span class="text-titleColor">of winter</span></h1>
+                <p class="text-base font-normal text-phColor">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, enim!</p>
+                <button class="bg-btnColor font-medium text-white py-4 px-8 rounded-lg uppercase"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+            </div>
+            <div>
+                <img src="images/model.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="md:w-4/5 md:mx-auto mt-12">
+            <h2 class="text-5xl text-titleColor font-semibold uppercase mb-5">Woman Jacket</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="rounded-2xl shadow-xl p-5 space-y-5">
+                    <div class="bg-imgBgColor rounded-2xl p-6">
+                        <img src="images/jacket-1.png" alt="">
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-2xl font-bold text-titleColor">Yellow Coat Jacket</h3>
+                        <p class="text-base font-normal text-phColor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, neque.</p>
+                        <div class="flex justify-between">
+                            <h2 class="text-4xl font-black text-primaryColor">$234</h2>
+                            <button class="bg-btnColor text-white py-4 px-8 rounded-lg uppercase"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rounded-2xl shadow-xl p-5 space-y-5">
+                    <div class="bg-imgBgColor rounded-2xl p-6">
+                        <img src="images/jacket-2.png" alt="">
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-2xl font-bold text-titleColor">Ladies Jacket</h3>
+                        <p class="text-base font-normal text-phColor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, neque.</p>
+                        <div class="flex justify-between">
+                            <h2 class="text-4xl font-black text-primaryColor">$234</h2>
+                            <button class="bg-btnColor text-white py-4 px-8 rounded-lg uppercase"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rounded-2xl shadow-xl p-5 space-y-5">
+                    <div class="bg-imgBgColor rounded-2xl p-6">
+                        <img src="images/jacket-3.png" alt="">
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-2xl font-bold text-titleColor">Woman Leather Jacket</h3>
+                        <p class="text-base font-normal text-phColor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, neque.</p>
+                        <div class="flex justify-between">
+                            <h2 class="text-4xl font-black text-primaryColor">$234</h2>
+                            <button class="bg-btnColor text-white py-4 px-8 rounded-lg uppercase"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="md:w-4/5 md:mx-auto mt-24">
+            <h2 class="text-5xl text-titleColor font-semibold uppercase mb-5">Man Jacket</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="rounded-2xl shadow-xl p-5 space-y-5">
+                    <div class="bg-imgBgColor rounded-2xl p-6">
+                        <img src="images/jacket-4.png" alt="">
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-2xl font-bold text-titleColor">Snowboard Jacket Mens</h3>
+                        <p class="text-base font-normal text-phColor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, neque.</p>
+                        <div class="flex justify-between">
+                            <h2 class="text-4xl font-black text-primaryColor">$234</h2>
+                            <button class="bg-btnColor text-white py-4 px-8 rounded-lg uppercase"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rounded-2xl shadow-xl p-5 space-y-5">
+                    <div class="bg-imgBgColor rounded-2xl p-6">
+                        <img src="images/jacket-5.png" alt="">
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-2xl font-bold text-titleColor">Man Leather Jackets</h3>
+                        <p class="text-base font-normal text-phColor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, neque.</p>
+                        <div class="flex justify-between">
+                            <h2 class="text-4xl font-black text-primaryColor">$234</h2>
+                            <button class="bg-btnColor text-white py-4 px-8 rounded-lg uppercase"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rounded-2xl shadow-xl p-5 space-y-5">
+                    <div class="bg-imgBgColor rounded-2xl p-6">
+                        <img src="images/jacket-6.png" alt="">
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-2xl font-bold text-titleColor">Man Casual Jackets</h3>
+                        <p class="text-base font-normal text-phColor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, neque.</p>
+                        <div class="flex justify-between">
+                            <h2 class="text-4xl font-black text-primaryColor">$234</h2>
+                            <button class="bg-btnColor text-white py-4 px-8 rounded-lg uppercase"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="md:w-4/5 md:mx-auto mt-32">
+            <div class="grid md:grid-cols-2 justify-center items-center gap-20">
+                <div class="space-y-4">
+                    <div class="flex gap-9 shadow-md rounded-3xl p-8">
+                        <img class="h-20 w-20" src="images/house.png" alt="">
+                        <div>
+                            <h3 class="text-2xl font-bold text-titleColor">Find the Perfect Fit</h3>
+                            <p class="text-base font-normal text-phColor">Everybody is different, which is why we<br>offer styles for every body.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-9 shadow-md rounded-3xl p-8">
+                        <img class="h-20 w-20" src="images/box.png" alt="">
+                        <div>
+                            <h3 class="text-2xl font-bold text-titleColor">Free Exchanges</h3>
+                            <p class="text-base font-normal text-phColor">One of the many reasons you can shop<br>with peace of mind.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-9 shadow-md rounded-3xl p-8">
+                        <img class="h-20 w-20" src="images/question.png" alt="">
+                        <div>
+                            <h3 class="text-2xl font-bold text-titleColor">Contact Our Seller</h3>
+                            <p class="text-base font-normal text-phColor">They are here to help you. That's quite<br>literally what we pay them for.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-first md:order-last">
+                    <img class="" src="images/shopping.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
